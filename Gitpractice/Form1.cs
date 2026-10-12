@@ -20,6 +20,12 @@ namespace Gitpractice
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello from git practice");
+            label1.Text = "Button was clicked";
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
             
         }
     }
